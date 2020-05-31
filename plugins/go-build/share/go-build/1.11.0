@@ -9,3 +9,5 @@ install_linux_32bit "Go Linux 32bit 1.11.0" "https://dl.google.com/go/go1.11.lin
 install_linux_64bit "Go Linux 64bit 1.11.0" "https://dl.google.com/go/go1.11.linux-amd64.tar.gz#b3fcf280ff86558e0559e185b601c9eade0fd24c900b4c63cd14d1d38613e499"
 
 install_linux_arm "Go Linux arm 1.11.0" "https://dl.google.com/go/go1.11.linux-armv6l.tar.gz#8ffeb3577d8ca5477064f1cb8739835973c866487f2bf81df1227eaa96826acd"
+
+install_linux_aarch64 "Go Linux ARM 64-bit 1.11.0" "https://dl.google.com/go/go1.11.linux-arm64.tar.gz#e4853168f41d0bea65e4d38f992a2d44b58552605f623640c5ead89d515c56c9"
