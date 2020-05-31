@@ -260,8 +260,9 @@ install_linux_32bit() {
 install_linux_arm() {
     if [ "$(uname -s)" = "Linux" ]; then
         local arch="$(uname -m)"
+        local rpi="$(egrep -q 'BCM(283(5|6|7)|270(8|9)|27(08|11))' /proc/cpuinfo && echo 'raspberrypi')"
 
-        if [ $arch = "armv6l" ] || [ $arch = "armv7l" ]; then
+        if [ $arch = "armv6l" ] || [ $arch = "armv7l" ] || [ $rpi = "raspberrypi" ]; then
             install_package_using "tarball" 1 "$@"
         fi
     fi
@@ -270,8 +271,9 @@ install_linux_arm() {
 install_linux_aarch64() {
     if [ "$(uname -s)" = "Linux" ]; then
         local arch="$(uname -m)"
+        local rpi="$(egrep -q 'BCM(283(5|6|7)|270(8|9)|27(08|11))' /proc/cpuinfo && echo 'raspberrypi')"
 
-        if [ $arch = "arm64" ] || [ $arch = "aarch64" ]; then
+        if [ $arch = "arm64" ] || [ $arch = "aarch64" ] && [ $rpi = "" ]; then
             install_package_using "tarball" 1 "$@"
         fi
     fi
