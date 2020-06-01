@@ -1,0 +1,15 @@
+# install_from_source "Go 1.11.12 Source" "https://dl.google.com/go/go1.11.12.src.tar.gz#6d7a5ba05476609a7614af3292f29c3be06327503c1f1fdc02ef417870fd6926"
+
+install_darwin_64bit "Go Darwin 64-bit 1.11.12" "https://dl.google.com/go/go1.11.12.darwin-amd64.tar.gz#d2e1f708f3aef540ab27bcecd5c7e995c28e3a6db799d20393dd886ad3937a4c"
+
+install_bsd_32bit "Go BSD x86 32-bit 1.11.12" "https://dl.google.com/go/go1.11.12.freebsd-386.tar.gz#9d634ad1c815c5fe7845b982900205b91244c0a71b86d295f6c2d6ae0909edaa"
+
+install_bsd_64bit "Go BSD x86 64-bit 1.11.12" "https://dl.google.com/go/go1.11.12.freebsd-amd64.tar.gz#be3017c5a71858f7a850081dbcf9b2975ee824d0f31040ca31e2170022f76fd1"
+
+install_linux_32bit "Go Linux x86 32-bit 1.11.12" "https://dl.google.com/go/go1.11.12.linux-386.tar.gz#8467e68d6ed6f6a95c6db6a1e352fc529f256bba0955eaef472e50cf4c0cba61"
+
+install_linux_64bit "Go Linux x86 64-bit 1.11.12" "https://dl.google.com/go/go1.11.12.linux-amd64.tar.gz#14ec881815eb9e6618f95df5eb385d961283efc196d97912595ba6484a56180d"
+
+install_linux_aarch64 "Go Linux ARM 64-bit 1.11.12" "https://dl.google.com/go/go1.11.12.linux-arm64.tar.gz#d79c075773fc3121d0e719b83b46115efff685ade94545a52f3ac22f43d76196"
+
+install_linux_arm "Go Linux ARM v6l 1.11.12" "https://dl.google.com/go/go1.11.12.linux-armv6l.tar.gz#5ffe422dc054909da4e468cb0df6e2cd41cebfe4fd9515f32bb3e3fbfc416016"
